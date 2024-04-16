@@ -1,0 +1,149 @@
+<div class="w-screen h-screen grid grid-cols-4 grid-row-1">
+  <div class=" relative">
+    <div class="content-images absolute w-[300px] h-[300px]  top-10 left-10 overflow-hidden">
+      <div class="block-1 w-full h-full absolute z-10">
+        <img class="w-full h-full object-cover" src="assets/1.png" alt="">
+      </div>
+      <div class="block-2 w-full h-full absolute z-20 translate-x-full">
+        <img class="w-full h-full object-cover" src="assets/3.png" alt="">
+      </div>
+      <div class="block-3 w-full h-full absolute z-30 translate-x-full">
+        <img class="w-full h-full object-cover" src="assets/2.png" alt="">
+      </div>
+    </div>
+    <!-- number tips -->
+    <div class="text absolute text-8xl top-1/2 left-10 max-h-[85px] overflow-hidden">
+      <div class="flex h-full">
+        <div class="row-text h-full">
+          <div class="min-h-[85px]">01</div>
+          <div class="min-h-[85px]">02</div>
+          <div class="min-h-[85px]">03</div>
+        </div>
+        <div>/03</div>
+      </div>
+    </div>
+    <!-- section arrow -->
+    <div class="arrows absolute left-10 bottom-10">
+      <div class="arrow-container flex items-center gap-1">
+        <div (click)="previus()" class="p-2 border hover:bg-slate-200 rounded-full">
+          <img src="assets/arrow-sm-left-svgrepo-com.svg" alt="">
+        </div>
+        <div (click)="next()" class="p-2 border hover:bg-slate-200 rounded-full">
+          <img src="assets/arrow-sm-right-svgrepo-com.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-span-2 relative">
+    <div class="top-text absolute top-10 left-10 h-[160px] w-[700px]">
+      <div class="relative h-full w-full">
+        <div class="text-1 absolute h-[160px] w-[700px] flex flex-col items-center justify-center">
+          <div class="text-4xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-0 min-h-[25px]">
+              ALIEN
+            </div>
+          </div>
+        </div>
+        <div class="text-2 absolute hidden h-[160px] w-[700px] flex flex-col items-center justify-center">
+          <div class="text-4xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-1 min-h-[25px]">
+              DAVID WAS DESIGNED
+            </div>
+          </div>
+          <div class="text-4xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-1 min-h-[25px]">
+              TO BE VERY HUMAN
+            </div>
+          </div>
+          <div class="text-4xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-1 min-h-[25px]">
+              HE CAN EXPERIENCE EMOTION
+            </div>
+          </div>
+        </div>
+        <div class="text-3 hidden absolute h-[160px] w-[700px] flex flex-col items-center justify-center">
+          <div class="text-4xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-2 min-h-[25px]">
+              A PRATICAL COMPANION
+            </div>
+          </div>
+          <div class="text-4xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-2 min-h-[25px]">
+              MADE TO HELP
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-center absolute w-[700px] h-[500px] top-1/4 left-10">
+      <div class="content-images absolute w-full h-full overflow-hidden">
+        <div class="block-1 w-full h-full absolute z-10">
+          <img class="w-full h-full object-cover" src="assets/2.png" alt="">
+        </div>
+        <div class="block-2 w-full h-full absolute z-20 translate-x-full">
+          <img class="w-full h-full object-cover" src="assets/1.png" alt="">
+        </div>
+        <div class="block-3 w-full h-full absolute z-30 translate-x-full">
+          <img class="w-full h-full object-cover" src="assets/3.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-text absolute bottom-5 left-10 h-[100px] w-[700px]">
+      <div class="relative h-full w-full">
+        <div class="text-1 absolute h-[100px] w-[700px] flex flex-col items-center justify-center">
+          <div class="text-lg w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-0 min-h-[25px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </div>
+          </div>
+          <div class="text-lg w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-0 min-h-[25px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, quam.
+            </div>
+          </div>
+          <div class="text-lg w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-0 min-h-[25px]">
+              consectetur adipisicing elit. Est, quam.
+            </div>
+          </div>
+        </div>
+        <div class="text-2 absolute hidden h-[100px] w-[700px] flex flex-col items-center justify-center">
+          <div class="text-xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-1 min-h-[25px]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </div>
+          </div>
+        </div>
+        <div class="text-3 hidden absolute h-[100px] w-[700px] flex flex-col items-center justify-center">
+          <div class="text-xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-2 min-h-[25px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, doloremque?
+            </div>
+          </div>
+          <div class="text-xl w-full text-center max-h-[35px] overflow-hidden">
+            <div class="texts-2 min-h-[25px]">
+              Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" relative">
+    <div class="section-right absolute bottom-36 left-10 w-[300px] h-[200px] ">
+      <div class="content-images absolute w-full h-full overflow-hidden">
+        <div class="block-1 w-full h-full absolute z-10">
+          <img class="w-full h-full object-cover" src="assets/3.png" alt="">
+        </div>
+        <div class="block-2 w-full h-full absolute z-20 translate-x-full">
+          <img class="w-full h-full object-cover" src="assets/2.png" alt="">
+        </div>
+        <div class="block-3 w-full h-full absolute z-30 translate-x-full">
+          <img class="w-full h-full object-cover" src="assets/1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
